@@ -1,0 +1,17 @@
+{
+    "require": {
+        "doctrine/orm": "^2.6",
+        "doctrine/migrations": "^2.0",
+        "symfony/cache": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "php5\\Doctrine\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        }
+    }
+}
